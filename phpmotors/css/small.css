@@ -1,0 +1,318 @@
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+/* HEADER */
+
+.logo {
+
+    width: 180px;
+}
+
+.myaccount a {
+    float: right;
+    padding: 30px;
+    color: #3a3a3a;
+    
+}
+
+.welcome a {
+    float: right;
+    color: #3a3a3a;
+    padding: 20px;
+    
+}
+
+header span {
+    float: right;
+    padding: 7px;
+    color: #3a3a3a;
+    
+}
+
+/* NAV */
+
+nav ul {
+    list-style: none;
+    background-color: #3a3a3a;
+    color: white;
+    display: flex; 
+    justify-content: center; 
+    padding: 10px;
+    max-width: 10%;
+}
+
+nav li a {
+    padding: 10px;
+    color: white;
+}
+
+/* MAIN */
+
+.backgroundimg {
+    position: absolute;
+    z-index: -1;
+}
+
+.whole {
+    margin: 10px;
+    background-color: white;
+}
+
+main {
+    padding: 8px;
+}
+
+h1 {
+    
+    font-size: 25px;
+}
+
+h2 {
+    
+    font-size: 18px;
+
+}
+
+h3 {
+    
+    font-size: 16px;
+
+}
+
+p, li, label, .container span a, button {
+    
+    font-size: 12px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+}
+
+hr {
+
+    overflow: hidden; 
+    border-style: solid; 
+    color: #3a3a3a;
+    border-width: 3px;
+    height: 0px;
+}
+
+
+
+/* HOME */
+
+.DMC {
+    list-style: none;
+    color: #4c96d7;
+    position: absolute;
+    z-index: 2;
+}
+
+.carpic {
+    width: 100%;
+    margin: 10px;
+}
+
+.owntoday {
+    margin-left: 30%;
+}
+
+.reviews li {
+    margin: 6px;
+}
+
+div.upgrades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    justify-items: center;
+
+}
+
+.upgrades div {
+    background-color: #4c96d7;
+    width: 100%;
+    height: 60%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.upgrades div img {
+    margin: 10px;
+}
+
+/* LOGIN */
+
+.login {
+    color: #4c96d7;
+}
+
+.container {
+    padding-left: 15px;
+}
+form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px;
+}
+
+.container label, button {
+    display: block;
+    margin-left: 15px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.container button {
+    padding: 5px;
+    margin: 10px;
+}
+
+input {
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    margin: 6px;
+
+}
+
+.dropdown {
+    z-index: 2;
+}
+
+select {
+    color: #3a3a3a;
+    
+
+}
+
+
+
+span.pswreq {
+    display: inline;
+    
+}
+
+/* ADMIN */
+
+ul.admin-list li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+ul.admin-list li p {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#veh-crtl a {
+    color: #3a3a3a;
+    padding: 20px;
+    
+}
+
+form.review-form {
+    border: 1px solid black;
+}
+
+input#screenName {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+p.bethefirst {
+    background-color: rgb(245, 122, 122);
+    padding: 15px;
+    color: white;
+}
+
+input#reviewText {
+    min-width: 15em;
+    min-height: 5em;
+    margin-bottom: 10px;
+}
+
+
+/* VEHICLES */
+
+html{
+    box-sizing: border-box;
+   }
+   
+   *, *:before, *:after{
+    box-sizing: inherit;
+   }
+
+li img {
+       max-width: 100%;
+   }
+
+   #inv-display{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   }
+   
+   #inv-display li{
+    margin-bottom: .5em;
+    border: 1px #ccc solid;
+    list-style-type: none;
+    flex: 1 1 auto;
+   }
+   
+   #inv-display li img {
+       max-width: 100%;
+   }
+
+   #det-display {
+       max-width: 100%;
+   }
+
+   #det-display img.primary {
+    max-width: 100%;
+    margin: 10px;
+}
+
+#det-display span {
+    background-color: #4d4b4b;
+    color: white;
+    
+    font-size: 12px;
+    padding: 5px;
+}
+
+.secondary-tn {
+    display: inline-block;
+    margin: 10px;
+}
+
+.secondary-tn:hover {
+    width: 250px;
+    -webkit-box-shadow: 0px 0px 30px -3px #000000; 
+    box-shadow: 0px 0px 30px -3px #000000;
+
+}
+
+
+
+
+
+
+
+
